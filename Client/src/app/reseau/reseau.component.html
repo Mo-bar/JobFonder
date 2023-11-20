@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Network</title>
+
+</head>
+<body>
+<div class="card mx-auto pt-3" style="max-width: fit-content">
+  <div class="container overflow-hidden">
+    <div class="row gy-5">
+      <div *ngFor="let post of posts" class="col-sm-4">
+        <div class="mini-profile">
+          <img src="https://via.placeholder.com/50" alt="User Avatar" class="img-fluid rounded-circle mb-2">
+          <h5>{{ post.poster }}</h5>
+          <p>{{ post.job }}</p>
+          <button class="btn btn-outline-primary btn-sm"><i class="bi bi-person-plus"></i> Se Connecter</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
+
