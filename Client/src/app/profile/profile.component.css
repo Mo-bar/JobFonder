@@ -1,0 +1,16 @@
+
+
+.profile-container {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.profile-image {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
